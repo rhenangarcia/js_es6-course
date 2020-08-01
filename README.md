@@ -1,4 +1,6 @@
-# 🚀 Welcome to js_es6-course ![Starter Logo](imagens/starter-logo.svg) ![JS ES6 Logo](imagens/js_es6-logo.png)
+![Starter Logo](imagens/starter-logo.svg) ![JS ES6 Logo](imagens/js_es6-logo.png)
+
+# 🚀 Welcome to js_es6-course
 
 These are the solutions to the exercises presented in **[Starter / JavaScript ES6 Course](https://rocketseat.com.br/starter)** by **[Rocketseat](https://rocketseat.com.br/)**.
 
