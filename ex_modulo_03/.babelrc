@@ -1,0 +1,22 @@
+/* 
+  * Configuração do Babel p/ converter comandos JS ES6+ p/ JS puro, permitindo que seja compreendido 
+  * por qualquer interpretador JS, independente da implementação do ES6+.
+  *
+  * Presets -> configurações de conversão de acordo c/ ambiente de execução
+  *         -> preset-env: utiliza apenas as conversões pertinentes aos browsers
+  * Plugins -> implementações do ES6+ que ainda não foram adicionadas nativamente ao Babel
+  *         -> plugin-proposal-object-rest-spread: plugin p/ operações rest/spread
+  *         -> plugin-transform-async-to-generator: plugin p/ async/await (ES8)
+  */
+
+{
+  "presets":
+  [
+    "@babel/preset-env"
+  ],
+  "plugins":
+  [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-async-to-generator"
+  ]
+}

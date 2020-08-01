@@ -1,0 +1,19 @@
+{
+  "name": "js_es6-ex_modulo_01",
+  "version": "1.0.0",
+  "description": "Rocketseat - Starter - Curso JavaScript ES6 - Exercícios módulo 01",
+  "main": "ex_modulo_01-main.js",
+  "author": "rhenangarcia",
+  "license": "MIT",
+  "devDependencies":
+  {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "scripts":
+  {
+    "ex_modulo_01": "babel ./ex_modulo_01-main.js -o ./ex_modulo_01-bundle.js -w"
+  }
+}
